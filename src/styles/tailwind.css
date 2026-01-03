@@ -1,0 +1,22 @@
+/* --- CONFIGURAÇÃO DO TAILWIND (V4) ---
+  Este arquivo inicializa o motor de estilos do seu site.
+  Diferente das versões antigas, agora a configuração é feita quase toda aqui no CSS.
+*/
+
+/* 1. CARREGA O FRAMEWORK */
+/* Essa linha única substitui aquelas 3 linhas antigas (@tailwind base, components, utilities).
+   Ela traz todo o poder do Tailwind: reset de CSS, variáveis e as classes utilitárias. */
+@import "tailwindcss";
+
+/* 2. RASTREADOR DE ARQUIVOS (SOURCE) */
+/* Isso substitui a parte 'content' do antigo tailwind.config.js.
+Aqui você diz: "Tailwind, olhe na pasta anterior (../) e em todas as subpastas (**),
+e leia qualquer arquivo que termine com .js, .ts, .jsx ou .tsx".
+
+   Ele "escaneia" esses arquivos para ver quais classes você usou e gera o CSS só para elas. */
+@source "../**/*.{js,ts,jsx,tsx}";
+
+/* 3. PLUGIN DE ANIMAÇÕES */
+/* Traz as animações extras (como as que usamos no Hero e nos Skills).
+   Isso adiciona classes prontas para animações fluidas sem precisar criar keyframes na mão. */
+@import "tw-animate-css";

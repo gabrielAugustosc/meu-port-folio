@@ -1,0 +1,20 @@
+/*
+  --- GERENCIADOR DE ESTILOS (INDEX.CSS) ---
+  O comando @import funciona como um "link".
+  Ele avisa para o navegador: "Antes de carregar o site, leia também esses arquivos aqui".
+*/
+
+/* 1. Fontes Customizadas */
+/* Carrega os arquivos de fonte (como Inter, Roboto, etc.) que você baixou ou configurou.
+   Sem isso, o site usaria fontes padrões feias (como Times New Roman). */
+@import './fonts.css';
+
+/* 2. Tailwind CSS */
+/* Essa linha é a mais importante! Ela carrega todo o poder do Tailwind.
+   É ela que faz classes como 'bg-slate-950', 'text-white' e 'p-4' funcionarem. */
+@import './tailwind.css';
+
+/* 3. Tema e Variáveis */
+/* Aqui ficam as configurações globais, como as cores principais do site,
+   animações personalizadas ou configurações de modo escuro/claro. */
+@import './theme.css';
