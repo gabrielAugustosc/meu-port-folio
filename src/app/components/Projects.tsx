@@ -11,7 +11,7 @@ export function Projects() {
         {
             title: 'Projeto Vivo Figma',
             description: 'Protótipo da plataforma Vivo',
-            image: '/image/image.png',
+            image: '/public/image/image.png',
             tags: ['Figma'],
             githubUrl: 'https://www.figma.com/design/5lyoipb1rysAkAcpkBjn1A/SITE-vivo?node-id=0-1&t=t6PDZ4nVpAOrDs7g-1', 
             demoUrl: 'https://www.figma.com/design/5lyoipb1rysAkAcpkBjn1A/SITE-vivo?node-id=0-1&t=t6PDZ4nVpAOrDs7g-1',
@@ -27,7 +27,7 @@ export function Projects() {
         {
             title: 'EM BREVE',
             description: 'Futuro projeto',
-            image: '/image/Gemini_Generated_Image_efb4dwefb4dwefb4.png',
+            image: '/public/image/Gemini_Generated_Image_efb4dwefb4dwefb4.png',
             tags: ['EM BREVE'],
             githubUrl: '#', // Link vazio (placeholder)
             demoUrl: '#',
