@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 
 // Importa o componente 'App'. 
 // Lembra do arquivo App.tsx que acabamos de ver? É ele sendo trazido pra cá.
-import App from "./app/App.tsx";
+import App from "./App.tsx";
 
 // Importa o CSS Global.
 // É aqui que o Tailwind CSS e suas configurações de estilo são carregados pro site todo.
